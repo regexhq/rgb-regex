@@ -2,7 +2,7 @@
   "name": "rgb-regex",
   "description": "Regex for RGB color strings.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
