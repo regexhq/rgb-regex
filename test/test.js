@@ -22,7 +22,6 @@ describe('rgb-regex', function() {
     it('should return a regex that matches exact rgb strings', function() {
       rgbStrings.forEach(function(rgb) {
         assert.ok(rgbRegex({ exact: true }).test(rgb));
-        console.log(rgbRegex().exec(rgb));
       });
     });
 
