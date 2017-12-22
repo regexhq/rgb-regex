@@ -3,11 +3,13 @@ var rgbRegex = require('..');
 
 var rgbStrings = [
   'rgb(12,34,56)',
+  'rgb(50%,50%,50%)',
   'rgb(255, 255,      255)',
   'rgb(1,   1,1)'
 ];
 
 var inexactRgbStrings = [
+  'rgb(%,%,%)',
   'rgb(,,)',
   'rGb(12,34,56)',
   'rgb(12, 34, 200) ',
